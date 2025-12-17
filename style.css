@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+/* Area on the page */
+.area{
+    margin-inline: 100px;
+    background-color: azure;
+}
