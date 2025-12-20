@@ -1,9 +1,38 @@
-body {
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Area on the page */
 .area{
     margin-inline: 100px;
-    background-color: azure;
+    margin-top: 60px;
+}
+
+.work{
+    text-decoration: none;
+}
+
+.git{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    top: 60px;
+    right: 100px;
+    width: auto;
+    height: auto;
+}
+.git img{
+    width: 60px;
+    border-radius: 10px;
+}
+.git a{
+    align-content: center;
+}
+
+.linksOnWorks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
 }

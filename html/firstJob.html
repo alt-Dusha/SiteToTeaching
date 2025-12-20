@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/firstJob.css">
+    <title>Первая работа</title>
+</head>
+<body>
+    <div class="area">
+        <div class="job">
+            <p>Введите данные(день, месяц, день недели)</p>
+            <div>
+                <input id="day"  placeholder="День месяца">
+                <input id="month" placeholder="Номер месяца">
+                <input id="dayWeek" placeholder="Номер дня недели">
+            </div>
+            <button onclick="DateShowing()">Вывести</button>
+            <p class="answer" id="answerFirst"></p>
+        </div>
+
+        <div class="job">
+            <p>Введите 5-значное число</p>
+            <input id="sum" placeholder="пример: 12304">
+            <button onclick="arifmatics()">Найти</button>
+            <p id="answerSecond"></p>
+        </div>
+
+        <div class="job">
+            <p>Сгенирировать случайное число в диапазоне от <span><input id="min" placeholder="число"></span> до <span><input id="max" placeholder="число"></span></p>
+            <button onclick="randomizing()">Сгенирировать</button>
+            <p id="answerThird"></p>
+        </div>
+
+    </div>
+    <script src="/js/scriptFirstJob.js"></script>
+</body>
+</html>
