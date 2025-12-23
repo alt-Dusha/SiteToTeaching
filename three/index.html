@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/three/style.css">
+    <title>Первая работа</title>
+</head>
+<body>
+    <div class="area">
+        <h1>Операторы цикла</h1>
+
+        <h2>Пример 1. Сумма ряда</h2>
+        <div class="one">
+            <p>Вывести сумму всех нечётных чисел ряда от <input id="N" placeholder="N"> до <input id="M" placeholder="M"> (включительно)</p>
+            <button onclick="sumAllInLenght()">Вывести</button>
+            <p id="answer1"></p>
+        </div>
+        <h2>Пример 2. Таблица умножения</h2>
+        <div class="one">
+            <table id="tableOfMultiplication"></table>
+        </div>
+        <h2>Пример 3. Отгадай число</h2>
+        <div class="one">
+            <p>Попробуй отгадать число, количество попыток: <span id="randomNum"></span></p>
+            <input id="last">
+            <button onclick="TryToFindNumber()">Отгадать</button>
+            <p id="back"></p>
+        </div>
+    </div>
+    <script src="/three/script.js"></script>
+</body>
+</html>

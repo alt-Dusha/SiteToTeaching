@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.area{
+    margin-top: 50px;
+    margin-inline: 100px;
+}
+h1{
+    padding-bottom: 6px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: red;
+    padding-bottom: 10px;
+}
+
+.one{
+    padding-inline: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.one input{
+    width: 40px;
+    margin-inline: 10px;
+}
+.one button{
+    padding-inline: 10px;
+    margin-inline: 10px;
+}
+table{
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
