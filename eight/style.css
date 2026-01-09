@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.area{
+    margin-inline: 100px;
+    margin-top: 40px;
+    height: 400px;
+}
+
+h2{
+    padding: 14px;
+}
+
+.scene {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+#picture {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    width: 100px;
+    transition: none;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.zxc{
+    z-index: 1;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: gray;
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .area{} */
+
+.zxc{
+    z-index: 1;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: gray;
+}

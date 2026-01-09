@@ -4,3 +4,60 @@
     box-sizing: border-box;
 }
 
+.area{
+    margin-inline: 100px;
+    margin-top: 40px;
+}
+.otstup{
+    padding-inline: 20px;
+    padding-top: 20px;
+}
+
+p{
+    padding-left: 20px;
+    padding-top: 10px;
+    /* transition: all 0.3s ease-in-out; */
+}
+/* p:hover{
+    color: red;
+    scale: 1.1;
+} */
+.zxc{
+    z-index: 1;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: gray;
+}
+.cenrir{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 100px;
+}
+
+button{
+    padding: 4px 10px;
+    margin-top: 10px;
+    transition: all 0.1s ease-in-out;
+}
+button:hover{
+    box-shadow:  0px 0px 100px 3px blue;
+    background-color: blueviolet;
+    color: white;
+    transform: scale(1.3);
+}
+.tableArea{
+    display: flex;
+}
+ul{
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+li{
+    list-style: "- ";
+}
+.last{
+    margin-top: 50px;
+    margin-right: 100px;
+}

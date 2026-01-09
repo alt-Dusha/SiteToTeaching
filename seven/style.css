@@ -5,22 +5,17 @@
 }
 
 .area{
-    width: inherit;
-    height: inherit;
-    margin-top: 250px;
+    padding: 100px 200px;
     display: flex;
-    margin-inline: 550px;
     flex-direction: column;
-    justify-content: space-around;
+}
+.area button{
+    width: 120px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    align-self: center;
 }
 
-.job{
-    margin-bottom: 20px;
-}
-
-.answer{
-    color: red;
-}
 .zxc{
     z-index: 1;
     position: fixed;

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.area{
+    margin-inline: 100px;
+    margin-top: 40px;
+    height: 400px;
+}
+
+h2{
+    padding: 14px;
+}
+h3{
+    padding-inline: 16px;
+    color: red;
+}
+.dataArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+}
+fieldset{
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+}
+legend{
+    margin-left: 20px;
+}
+.h{
+    position: sticky;
+}
+
+.zxc{
+    z-index: 1;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: gray;
+}
+.table1{
+    display: flex;
+    padding: 30px;
+}
+
+.column1{
+    width: 300px;
+}
+.column1 p{
+    margin-bottom: 20px;
+}
+
+.column2{
+    width: 300px;
+    display: block;
+}
+
+.column2 input{
+    margin-bottom: 20px;
+    width: 300px;
+}

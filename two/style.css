@@ -33,9 +33,16 @@ h3 {
     height: 240px;
 }
 
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
 .zxc{
+    padding-bottom: 0px;
     z-index: 1;
-    position: absolute;
+    margin-inline: 0px;
+    position: fixed;
     right: 10px;
     bottom: 10px;
     color: gray;

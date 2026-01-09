@@ -1,7 +1,7 @@
 // Первое задание
 function sumAllInLenght(){
-    let N = document.getElementById("N").value;
-    let M = document.getElementById("M").value;
+    let N = Number(document.getElementById("N").value);
+    let M = Number(document.getElementById("M").value);
 
     let sum = 0;
     if (N == "" || M == "") {
