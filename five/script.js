@@ -48,7 +48,7 @@ function w1(){
     while (a <= b) {
         summa += a;
         a += step;
-    }    
+    }
     alert(summa);
 }
 

@@ -4,7 +4,27 @@
     box-sizing: border-box;
 }
 
-/* .area{} */
+.area{
+    margin-inline: 80px;
+    margin-top: 40px;
+}
+
+h2{
+    width: fit-content;
+    padding-bottom: 10px;
+    margin-inline: 20px;
+}
+
+button{
+    padding: 5px 7px;
+    margin-bottom: 6px;
+    margin-inline: 30px;
+}
+
+.work{
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
 
 .zxc{
     z-index: 1;
